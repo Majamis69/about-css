@@ -1,0 +1,91 @@
+.glow-title {
+  font-size: 18px;
+  font-family: 'Trebuchet MS';
+  font-weight: 600;
+  display: inline-block;
+  animation: 3s infinite ease-in-out;
+  margin-left: 8px;
+}
+
+.icona {
+  font-size: 18px;
+  color: gold;
+  vertical-align: middle;
+  animation: shine 3s linear infinite, float 3s ease-in-out infinite;
+}
+
+.icona2 {
+  font-size: 18px;
+  color:#ffa500;
+  vertical-align: middle;
+  margin-right: 6px; 
+}
+
+.icona3 {
+  font-size: 18px;
+  color:#008080;
+  vertical-align: middle;
+  margin-right: 6px; 
+}
+
+.icona4 {
+  font-size: 12px;
+  color:#000000;
+  vertical-align: middle;
+  margin-right: 6px; 
+}
+.icona5 {
+  font-size: 18px;
+  color:#008080;
+  vertical-align: middle;
+  margin-left: 6px; 
+}
+.icona6 {
+  font-size: 18px;
+  color:#ffa500;
+  vertical-align: middle;
+  margin-left: 6px; 
+}
+
+.date-row {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 8px;
+  gap: 6px;
+  font-family: 'Trebuchet MS';
+  font-size: 12px;
+  color: #000000;
+}
+
+.date-row i {
+  font-size: 12px;
+  color: #000000;
+}
+
+.cool-text {
+  display: inline-block;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  background: linear-gradient(90deg, #000 0%, #444 25%, #000 50%, #444 75%, #000 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s linear infinite, float 3s ease-in-out infinite;
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
